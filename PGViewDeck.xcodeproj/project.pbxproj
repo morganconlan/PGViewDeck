@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011A4ACC22D5C9C100D767E6 /* PGViewDeck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011A4AC222D5C9C100D767E6 /* PGViewDeck.framework */; };
+		011A4AD122D5C9C100D767E6 /* PGViewDeckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 011A4AD022D5C9C100D767E6 /* PGViewDeckTests.m */; };
+		011A4AD322D5C9C100D767E6 /* PGViewDeck.h in Headers */ = {isa = PBXBuildFile; fileRef = 011A4AC522D5C9C100D767E6 /* PGViewDeck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		011A4AF122D5CA1300D767E6 /* PGViewDeckController+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 011A4ADC22D5CA1000D767E6 /* PGViewDeckController+Private.h */; };
+		011A4AF222D5CA1300D767E6 /* PGViewDeckController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 011A4ADD22D5CA1100D767E6 /* PGViewDeckController.mm */; };
+		011A4AF422D5CA1300D767E6 /* IIEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = 011A4ADF22D5CA1100D767E6 /* IIEnvironment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		011A4AF522D5CA1300D767E6 /* PGViewDeckTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 011A4AE022D5CA1100D767E6 /* PGViewDeckTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		011A4AF622D5CA1300D767E6 /* IIDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 011A4AE222D5CA1200D767E6 /* IIDelegateProxy.h */; };
+		011A4AF722D5CA1300D767E6 /* IIDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 011A4AE322D5CA1200D767E6 /* IIDelegateProxy.m */; };
+		011A4AF822D5CA1300D767E6 /* IIEnvironment+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 011A4AE422D5CA1200D767E6 /* IIEnvironment+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		011A4AF922D5CA1300D767E6 /* PGViewDeckDefaultTransitionAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 011A4AE522D5CA1200D767E6 /* PGViewDeckDefaultTransitionAnimator.h */; };
+		011A4AFA22D5CA1300D767E6 /* PGViewDeckDefaultTransitionAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 011A4AE622D5CA1200D767E6 /* PGViewDeckDefaultTransitionAnimator.mm */; };
+		011A4AFB22D5CA1300D767E6 /* PGViewDeckLayoutSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 011A4AE722D5CA1200D767E6 /* PGViewDeckLayoutSupport.h */; };
+		011A4AFC22D5CA1300D767E6 /* PGViewDeckLayoutSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 011A4AE822D5CA1200D767E6 /* PGViewDeckLayoutSupport.m */; };
+		011A4AFD22D5CA1300D767E6 /* PGViewDeckTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 011A4AE922D5CA1200D767E6 /* PGViewDeckTransition.h */; };
+		011A4AFE22D5CA1300D767E6 /* PGViewDeckTransition.mm in Sources */ = {isa = PBXBuildFile; fileRef = 011A4AEA22D5CA1200D767E6 /* PGViewDeckTransition.mm */; };
+		011A4AFF22D5CA1300D767E6 /* UIViewController+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 011A4AEB22D5CA1200D767E6 /* UIViewController+Private.h */; };
+		011A4B0022D5CA1300D767E6 /* UIViewController+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 011A4AEC22D5CA1200D767E6 /* UIViewController+Private.m */; };
+		011A4B0122D5CA1300D767E6 /* UIViewController+PGViewDeckAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 011A4AED22D5CA1200D767E6 /* UIViewController+PGViewDeckAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		011A4B0222D5CA1300D767E6 /* UIViewController+PGViewDeckAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 011A4AEE22D5CA1200D767E6 /* UIViewController+PGViewDeckAdditions.m */; };
+		011A4B0422D5CA1300D767E6 /* PGViewDeckController.h in Headers */ = {isa = PBXBuildFile; fileRef = 011A4AF022D5CA1300D767E6 /* PGViewDeckController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		011A4ACD22D5C9C100D767E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 011A4AB922D5C9C100D767E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 011A4AC122D5C9C100D767E6;
+			remoteInfo = PGViewDeck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011A4AC222D5C9C100D767E6 /* PGViewDeck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PGViewDeck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		011A4AC522D5C9C100D767E6 /* PGViewDeck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGViewDeck.h; sourceTree = "<group>"; };
+		011A4AC622D5C9C100D767E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		011A4ACB22D5C9C100D767E6 /* PGViewDeckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PGViewDeckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		011A4AD022D5C9C100D767E6 /* PGViewDeckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGViewDeckTests.m; sourceTree = "<group>"; };
+		011A4AD222D5C9C100D767E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		011A4ADC22D5CA1000D767E6 /* PGViewDeckController+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PGViewDeckController+Private.h"; sourceTree = "<group>"; };
+		011A4ADD22D5CA1100D767E6 /* PGViewDeckController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PGViewDeckController.mm; sourceTree = "<group>"; };
+		011A4ADF22D5CA1100D767E6 /* IIEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIEnvironment.h; sourceTree = "<group>"; };
+		011A4AE022D5CA1100D767E6 /* PGViewDeckTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGViewDeckTransitioning.h; sourceTree = "<group>"; };
+		011A4AE222D5CA1200D767E6 /* IIDelegateProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIDelegateProxy.h; sourceTree = "<group>"; };
+		011A4AE322D5CA1200D767E6 /* IIDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IIDelegateProxy.m; sourceTree = "<group>"; };
+		011A4AE422D5CA1200D767E6 /* IIEnvironment+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IIEnvironment+Private.h"; sourceTree = "<group>"; };
+		011A4AE522D5CA1200D767E6 /* PGViewDeckDefaultTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGViewDeckDefaultTransitionAnimator.h; sourceTree = "<group>"; };
+		011A4AE622D5CA1200D767E6 /* PGViewDeckDefaultTransitionAnimator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PGViewDeckDefaultTransitionAnimator.mm; sourceTree = "<group>"; };
+		011A4AE722D5CA1200D767E6 /* PGViewDeckLayoutSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGViewDeckLayoutSupport.h; sourceTree = "<group>"; };
+		011A4AE822D5CA1200D767E6 /* PGViewDeckLayoutSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGViewDeckLayoutSupport.m; sourceTree = "<group>"; };
+		011A4AE922D5CA1200D767E6 /* PGViewDeckTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGViewDeckTransition.h; sourceTree = "<group>"; };
+		011A4AEA22D5CA1200D767E6 /* PGViewDeckTransition.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PGViewDeckTransition.mm; sourceTree = "<group>"; };
+		011A4AEB22D5CA1200D767E6 /* UIViewController+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Private.h"; sourceTree = "<group>"; };
+		011A4AEC22D5CA1200D767E6 /* UIViewController+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Private.m"; sourceTree = "<group>"; };
+		011A4AED22D5CA1200D767E6 /* UIViewController+PGViewDeckAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PGViewDeckAdditions.h"; sourceTree = "<group>"; };
+		011A4AEE22D5CA1200D767E6 /* UIViewController+PGViewDeckAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PGViewDeckAdditions.m"; sourceTree = "<group>"; };
+		011A4AF022D5CA1300D767E6 /* PGViewDeckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGViewDeckController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		011A4ABF22D5C9C100D767E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011A4AC822D5C9C100D767E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011A4ACC22D5C9C100D767E6 /* PGViewDeck.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		011A4AB822D5C9C100D767E6 = {
+			isa = PBXGroup;
+			children = (
+				011A4AC422D5C9C100D767E6 /* PGViewDeck */,
+				011A4ACF22D5C9C100D767E6 /* PGViewDeckTests */,
+				011A4AC322D5C9C100D767E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		011A4AC322D5C9C100D767E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				011A4AC222D5C9C100D767E6 /* PGViewDeck.framework */,
+				011A4ACB22D5C9C100D767E6 /* PGViewDeckTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		011A4AC422D5C9C100D767E6 /* PGViewDeck */ = {
+			isa = PBXGroup;
+			children = (
+				011A4AE122D5CA1200D767E6 /* Private */,
+				011A4ADF22D5CA1100D767E6 /* IIEnvironment.h */,
+				011A4AF022D5CA1300D767E6 /* PGViewDeckController.h */,
+				011A4ADD22D5CA1100D767E6 /* PGViewDeckController.mm */,
+				011A4ADC22D5CA1000D767E6 /* PGViewDeckController+Private.h */,
+				011A4AE022D5CA1100D767E6 /* PGViewDeckTransitioning.h */,
+				011A4AC622D5C9C100D767E6 /* Info.plist */,
+				011A4AC522D5C9C100D767E6 /* PGViewDeck.h */,
+				011A4AED22D5CA1200D767E6 /* UIViewController+PGViewDeckAdditions.h */,
+				011A4AEE22D5CA1200D767E6 /* UIViewController+PGViewDeckAdditions.m */,
+			);
+			path = PGViewDeck;
+			sourceTree = "<group>";
+		};
+		011A4ACF22D5C9C100D767E6 /* PGViewDeckTests */ = {
+			isa = PBXGroup;
+			children = (
+				011A4AD022D5C9C100D767E6 /* PGViewDeckTests.m */,
+				011A4AD222D5C9C100D767E6 /* Info.plist */,
+			);
+			path = PGViewDeckTests;
+			sourceTree = "<group>";
+		};
+		011A4AE122D5CA1200D767E6 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				011A4AE222D5CA1200D767E6 /* IIDelegateProxy.h */,
+				011A4AE322D5CA1200D767E6 /* IIDelegateProxy.m */,
+				011A4AE422D5CA1200D767E6 /* IIEnvironment+Private.h */,
+				011A4AE522D5CA1200D767E6 /* PGViewDeckDefaultTransitionAnimator.h */,
+				011A4AE622D5CA1200D767E6 /* PGViewDeckDefaultTransitionAnimator.mm */,
+				011A4AE722D5CA1200D767E6 /* PGViewDeckLayoutSupport.h */,
+				011A4AE822D5CA1200D767E6 /* PGViewDeckLayoutSupport.m */,
+				011A4AE922D5CA1200D767E6 /* PGViewDeckTransition.h */,
+				011A4AEA22D5CA1200D767E6 /* PGViewDeckTransition.mm */,
+				011A4AEB22D5CA1200D767E6 /* UIViewController+Private.h */,
+				011A4AEC22D5CA1200D767E6 /* UIViewController+Private.m */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		011A4ABD22D5C9C100D767E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011A4AF422D5CA1300D767E6 /* IIEnvironment.h in Headers */,
+				011A4B0422D5CA1300D767E6 /* PGViewDeckController.h in Headers */,
+				011A4AF522D5CA1300D767E6 /* PGViewDeckTransitioning.h in Headers */,
+				011A4B0122D5CA1300D767E6 /* UIViewController+PGViewDeckAdditions.h in Headers */,
+				011A4AF822D5CA1300D767E6 /* IIEnvironment+Private.h in Headers */,
+				011A4AF922D5CA1300D767E6 /* PGViewDeckDefaultTransitionAnimator.h in Headers */,
+				011A4AFD22D5CA1300D767E6 /* PGViewDeckTransition.h in Headers */,
+				011A4AF622D5CA1300D767E6 /* IIDelegateProxy.h in Headers */,
+				011A4AF122D5CA1300D767E6 /* PGViewDeckController+Private.h in Headers */,
+				011A4AFB22D5CA1300D767E6 /* PGViewDeckLayoutSupport.h in Headers */,
+				011A4AD322D5C9C100D767E6 /* PGViewDeck.h in Headers */,
+				011A4AFF22D5CA1300D767E6 /* UIViewController+Private.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		011A4AC122D5C9C100D767E6 /* PGViewDeck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011A4AD622D5C9C100D767E6 /* Build configuration list for PBXNativeTarget "PGViewDeck" */;
+			buildPhases = (
+				011A4ABD22D5C9C100D767E6 /* Headers */,
+				011A4ABE22D5C9C100D767E6 /* Sources */,
+				011A4ABF22D5C9C100D767E6 /* Frameworks */,
+				011A4AC022D5C9C100D767E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PGViewDeck;
+			productName = PGViewDeck;
+			productReference = 011A4AC222D5C9C100D767E6 /* PGViewDeck.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		011A4ACA22D5C9C100D767E6 /* PGViewDeckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011A4AD922D5C9C100D767E6 /* Build configuration list for PBXNativeTarget "PGViewDeckTests" */;
+			buildPhases = (
+				011A4AC722D5C9C100D767E6 /* Sources */,
+				011A4AC822D5C9C100D767E6 /* Frameworks */,
+				011A4AC922D5C9C100D767E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				011A4ACE22D5C9C100D767E6 /* PBXTargetDependency */,
+			);
+			name = PGViewDeckTests;
+			productName = PGViewDeckTests;
+			productReference = 011A4ACB22D5C9C100D767E6 /* PGViewDeckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		011A4AB922D5C9C100D767E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Morgan Conlan";
+				TargetAttributes = {
+					011A4AC122D5C9C100D767E6 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					011A4ACA22D5C9C100D767E6 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 011A4ABC22D5C9C100D767E6 /* Build configuration list for PBXProject "PGViewDeck" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 011A4AB822D5C9C100D767E6;
+			productRefGroup = 011A4AC322D5C9C100D767E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				011A4AC122D5C9C100D767E6 /* PGViewDeck */,
+				011A4ACA22D5C9C100D767E6 /* PGViewDeckTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		011A4AC022D5C9C100D767E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011A4AC922D5C9C100D767E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		011A4ABE22D5C9C100D767E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011A4AF222D5CA1300D767E6 /* PGViewDeckController.mm in Sources */,
+				011A4B0222D5CA1300D767E6 /* UIViewController+PGViewDeckAdditions.m in Sources */,
+				011A4AF722D5CA1300D767E6 /* IIDelegateProxy.m in Sources */,
+				011A4AFA22D5CA1300D767E6 /* PGViewDeckDefaultTransitionAnimator.mm in Sources */,
+				011A4AFE22D5CA1300D767E6 /* PGViewDeckTransition.mm in Sources */,
+				011A4B0022D5CA1300D767E6 /* UIViewController+Private.m in Sources */,
+				011A4AFC22D5CA1300D767E6 /* PGViewDeckLayoutSupport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011A4AC722D5C9C100D767E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011A4AD122D5C9C100D767E6 /* PGViewDeckTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		011A4ACE22D5C9C100D767E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 011A4AC122D5C9C100D767E6 /* PGViewDeck */;
+			targetProxy = 011A4ACD22D5C9C100D767E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		011A4AD422D5C9C100D767E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		011A4AD522D5C9C100D767E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		011A4AD722D5C9C100D767E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6999X7WA58;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PGViewDeck/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pangr.PGViewDeck;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		011A4AD822D5C9C100D767E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6999X7WA58;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PGViewDeck/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pangr.PGViewDeck;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		011A4ADA22D5C9C100D767E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6999X7WA58;
+				INFOPLIST_FILE = PGViewDeckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pangr.PGViewDeckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		011A4ADB22D5C9C100D767E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6999X7WA58;
+				INFOPLIST_FILE = PGViewDeckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pangr.PGViewDeckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		011A4ABC22D5C9C100D767E6 /* Build configuration list for PBXProject "PGViewDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011A4AD422D5C9C100D767E6 /* Debug */,
+				011A4AD522D5C9C100D767E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		011A4AD622D5C9C100D767E6 /* Build configuration list for PBXNativeTarget "PGViewDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011A4AD722D5C9C100D767E6 /* Debug */,
+				011A4AD822D5C9C100D767E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		011A4AD922D5C9C100D767E6 /* Build configuration list for PBXNativeTarget "PGViewDeckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011A4ADA22D5C9C100D767E6 /* Debug */,
+				011A4ADB22D5C9C100D767E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 011A4AB922D5C9C100D767E6 /* Project object */;
+}
