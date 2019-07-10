@@ -326,6 +326,8 @@ FOUNDATION_EXPORT NSString* NSStringFromPGViewDeckSide(PGViewDeckSide side);
 - (void)closeSide:(BOOL)animated completion:(nullable void(^)(BOOL cancelled))completion;
 
 
+- (void)toggleLeftSideAnimated:(BOOL)animated;
+
 /// @name Customizing Transitions
 
 /**

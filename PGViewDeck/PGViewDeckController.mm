@@ -324,6 +324,20 @@ __unused static inline BOOL IIIsAllowedTransition(PGViewDeckSide fromSide, PGVie
     }
 }
 
+- (void)toggleLeftSideAnimated:(BOOL)animated {
+
+    if (self.openSide == PGViewDeckSideLeft) {
+
+        [self closeSide:animated];
+
+    } else {
+
+        [self openSide:PGViewDeckSideLeft animated:animated];
+
+    }
+
+}
+
 - (void)closeSide:(BOOL)animated {
     [self closeSide:animated completion:NULL];
 }
